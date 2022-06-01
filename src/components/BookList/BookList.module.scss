@@ -1,0 +1,31 @@
+.bookList{
+    background-color: antiquewhite;
+    width: 100vw;
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        li{
+            list-style: none;
+        }
+    }
+}
+
+
+.bookCard{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 5px 10px;
+    align-items: center;
+
+    img{
+        width: 180px;
+        cursor: pointer;
+    }
+
+    h3{
+        cursor: pointer;
+    }
+}

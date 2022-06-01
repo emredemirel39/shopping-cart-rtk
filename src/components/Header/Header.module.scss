@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 1rem;
+    box-shadow: 0px 1px 1px rgba(128, 128, 128, 0.3);
+
+    ul{
+        display: flex;
+        justify-content: space-around;
+        width: 450px;
+
+        li{
+            list-style: none;
+
+            // Link tag from react-router-dom
+            a{
+                //color: black;
+            }
+        }
+    }
+}
