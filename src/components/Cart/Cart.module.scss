@@ -1,0 +1,106 @@
+.cart{
+    ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+
+        li{
+            list-style: none;
+        }
+    }
+}
+
+.cartBox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60rem;
+    border-top: 1px solid rgba(205, 205, 205, 0.7);
+    border-bottom: 1px solid rgb(205, 205, 205, );
+    padding: 1rem 0px;
+}
+
+.aboutBook{
+    display: flex;
+    gap: 20px;
+
+    img{
+        width: 120px;
+
+    }
+
+    div:last-child{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 18px;
+        min-width: 20rem;
+    
+        button{
+            width: fit-content;
+            background-color: transparent;
+            color: rgb(76, 76, 76);
+            border: none;
+            outline: none;
+            cursor: pointer;
+        }
+    }
+}
+
+.priceBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 5rem;
+}
+
+.quantityBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 5rem;
+}
+
+.quantityBtnBox{
+    display: flex;
+    padding: 5px 10px;
+    border: 1px solid gray;
+    width: 4rem;
+    justify-content: space-between;
+
+    button{
+        background-color: transparent;
+        padding: 2px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+}
+
+.totalBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 5rem;
+}
+
+.cartHandleBtns{
+    width: 60rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+
+    button:first-child{
+        background-color: transparent;
+        border: 1px solid rgb(134, 134, 134);
+        color: rgb(134, 134, 134);
+        padding: 4px 0px;
+        width: 120px;
+        cursor: pointer;
+    }
+}

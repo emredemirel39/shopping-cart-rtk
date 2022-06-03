@@ -1,10 +1,9 @@
 .bookList{
-    background-color: antiquewhite;
-    width: 100vw;
     ul{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
+        align-items: baseline;
 
         li{
             list-style: none;
@@ -19,6 +18,7 @@
     text-align: center;
     padding: 5px 10px;
     align-items: center;
+    border: 1px solid grey;
 
     img{
         width: 180px;
@@ -26,6 +26,14 @@
     }
 
     h3{
+        cursor: pointer;
+    }
+
+    button{
+        background-color: white;
+        outline: none;
+        border: 1px solid grey;
+        padding: 3px 6px;
         cursor: pointer;
     }
 }
